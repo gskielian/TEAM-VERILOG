@@ -10,6 +10,8 @@ Or you copypasta the following auto-magical line to run all of those commands fo
 
 `curl https://raw.githubusercontent.com/gskielian/TEAM-VERILOG/master/ice-ubuntu-14.04-installer.sh | sh`
 
+This installs the toolchain and makes a new folder in home directory: `~/OpenSource_ICE40_Flow`
+
 ## Examples:
 
 We currently have examples for the following:
