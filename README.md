@@ -17,17 +17,39 @@ There are two examples we looked at:
 * the icestick
 * the hx8kboard
 
+
+current tree:
+```sh
+.
+├── hx8kboard_examples
+│   └── example_1_blink
+│       ├── example.v
+│       ├── hx8kboard.pcf
+│       └── Makefile
+├── icestick_examples
+│   └── example_1_blink
+│       ├── example.v
+│       ├── icestick.pcf
+│       └── Makefile
+```
+
+
 ## icestick
 
 <p align="center"><img width="30%" src="./img/icestick-lattice.jpg"/></p>
 
 navigate to the directory below:
 
-`icestorm/examples/iceprog`
+`./icestick_examples/example_1_blink/`
+
+
+run with the following line:
 
 ```shell
 make && sudo make prog
 ```
+
+make edits to example.v as desired
 
 ## hx8kboard
 
@@ -35,7 +57,9 @@ make && sudo make prog
 
 navigate to the directory below:
 
-`icestorm/examples/hx8kboard`
+`./hx8kboard_examples/example_1_blink/`
+
+run with the following line:
 
 ```shell
 sudo iceprog -S example.bin
