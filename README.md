@@ -2,6 +2,14 @@
 
 Notes from IceD and Yosys workshop at the 32C3, Hamburg Germany
 
+## installation script
+
+To install follow the directions on Clifford's website: http://www.clifford.at/icestorm/
+
+Or you copypasta the following auto-magical line (heads-up, this will make a folder `~/OpenSource_ICE40_Flow`, if you want to use/create a different folder, feel free to clone the directory and alter the install script):
+
+`curl https://raw.githubusercontent.com/gskielian/TEAM-VERILOG/master/ice-ubuntu-14.04-installer.sh | sh`
+
 ## examples:
 
 There are two examples we looked at:
