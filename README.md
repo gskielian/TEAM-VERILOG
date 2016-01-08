@@ -10,26 +10,24 @@ Or you copypasta the following auto-magical line to run all of those commands fo
 
 `curl https://raw.githubusercontent.com/gskielian/TEAM-VERILOG/master/ice-ubuntu-14.04-installer.sh | sh`
 
-## examples:
+## Examples:
 
-There are two examples we looked at:
+We currently have examples for the following:
 
 * the icestick
 * the hx8kboard
 
-
-current tree:
+Current tree:
 ```sh
-.
-├── hx8kboard_examples
-│   └── example_1_blink
-│       ├── example.v
-│       ├── hx8kboard.pcf
-│       └── Makefile
 ├── icestick_examples
 │   └── example_1_blink
 │       ├── example.v
 │       ├── icestick.pcf
+│       └── Makefile.
+├── hx8kboard_examples
+│   └── example_1_blink
+│       ├── example.v
+│       ├── hx8kboard.pcf
 │       └── Makefile
 ```
 
