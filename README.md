@@ -1,8 +1,8 @@
 # TEAM-VERILOG
 
-Notes from IceD and Yosys workshop at the 32C3, Hamburg Germany
+Resources and examples for working with the awesome [Project IceStorm](http://www.clifford.at/icestorm/).
 
-## installation script
+## Installation
 
 To install follow the directions on Clifford's website: http://www.clifford.at/icestorm/
 
