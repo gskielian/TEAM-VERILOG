@@ -2,11 +2,11 @@
 
 Resources and examples for working with the awesome [Project IceStorm](http://www.clifford.at/icestorm/).
 
-## Installation
+## Installation on Ubuntu
 
 To install follow the directions on Clifford's website: http://www.clifford.at/icestorm/
 
-Or you copypasta the following auto-magical line (heads-up, this will make a folder `~/OpenSource_ICE40_Flow`, if you want to use/create a different folder, feel free to clone the directory and alter the install script):
+Or you copypasta the following auto-magical line to run all of those commands for you:
 
 `curl https://raw.githubusercontent.com/gskielian/TEAM-VERILOG/master/ice-ubuntu-14.04-installer.sh | sh`
 
