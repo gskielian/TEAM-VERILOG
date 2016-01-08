@@ -6,13 +6,8 @@ echo -e "downloading dependencies...\n\n"
 sudo apt-get install -y build-essential clang bison flex libreadline-dev gawk tcl-dev libffi-dev git mercurial graphviz xdot pkg-config python python3 libftdi-dev
 
 
-echo -e "store in local folder '~/OpenSource_ICE40_Flow'\n"
-echo -e "continue? [Y/n]:"
-read response
+echo -e "storing in local folder '~/OpenSource_ICE40_Flow'\n"
 
-if [[ "$response" == "n" ]]; then
-  echo -e "process aborted\n"
-fi
 
 echo -e "creating '~/OpenSource_ICE40_Flow'\n"
 fpga_home=~/OpenSource_ICE40_Flow
