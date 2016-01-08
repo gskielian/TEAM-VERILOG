@@ -1,10 +1,13 @@
 module top (
 	input  clk,
+	output LED0,
 	output LED1,
 	output LED2,
 	output LED3,
 	output LED4,
-	output LED5
+	output LED5,
+	output LED6,
+	output LED7
 );
 
 	localparam BITS = 5;
@@ -24,6 +27,6 @@ module top (
 		end
 	end
 
-	assign {LED1, LED2, LED3, LED4} = 15;
-	assign LED5 = out_led;
+	assign {LED0, LED1, LED2, LED3, LED4, LED5, LED6} = ~0;
+	assign LED7 = out_led;
 endmodule
